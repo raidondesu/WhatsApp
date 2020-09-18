@@ -6,9 +6,10 @@ import Chat from "./chat.js";
 function App() {
   return (
     <div className="app">
-      <h2>Lets build whatsapp</h2>
-      <Sidebar />
-      <Chat />
+      <div className="app__body">
+        <Sidebar />
+        <Chat />
+      </div>
     </div>
   );
 }
