@@ -7,8 +7,8 @@ import { Avatar, IconButton } from "@material-ui/core";
 function Sidebar() {
   return (
     <div className="sidebar">
-      <h1>Sidebar</h1>
       <div className="sidebar__header">
+        <Avatar />
         <div className="sidebar__headerRight">
           <IconButton>
             <DonutLargeIcon />
