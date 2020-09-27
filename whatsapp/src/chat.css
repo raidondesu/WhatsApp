@@ -24,3 +24,13 @@
 .chat__headerInfo {
   color: gray;
 }
+
+.chat__body {
+  flex: 1;
+  color: white;
+  background-image: url("https://wallpapercave.com/wp/wp4946969.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  padding: 30px;
+  overflow: scroll;
+}
