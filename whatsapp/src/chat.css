@@ -37,6 +37,7 @@
 
 .chat__message {
   position: relative;
+  color: black;
   font-size: 16px;
   padding: 10px;
   width: fit-content;
@@ -55,6 +56,7 @@
 }
 
 .chat__name {
+  color: white;
   position: absolute;
   top: -15px;
   font-weight: 800;
